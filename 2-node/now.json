@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "201908-node",
+    "scope": "trainit",
+    "builds": [
+      { "src": "index.js", "use": "@now/node" }
+    ]
+  }

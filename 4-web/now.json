@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "201908-web",
+  "scope": "trainit",
+  "builds": [
+    { "src": "api/*.php", "use": "now-php" },
+    { "src": "dist/*", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/api/(.+)/", "dest": "/api/$1.php" },
+    { "src": "/(.*)", "dest": "/dist/$1" }
+  ]
+}
