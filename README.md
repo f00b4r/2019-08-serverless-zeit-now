@@ -1,8 +1,8 @@
-# ZEIT Now + now-php
+# Vercel PHP runtime (ZEIT Now)
 
 - Author: Felix (https://f3l1x.io)
-- ZEIT Now (https://zeit.co)
-- PHP builder - `now-php` - (https://github.com/juicyfx/now-php)
+- Vercel (https://vercel.com)
+- PHP runtime - `vercel-php` - (https://github.com/juicyfx/vercel-php)
 
 ## Examples
 
